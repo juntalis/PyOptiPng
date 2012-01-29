@@ -1,6 +1,6 @@
 # PyOptipng
 
-Python C-extension wrapping the internals of [OptiPng](http://optipng.sourceforge.net/) to allow optimizing the size of image files from Python. Currently, I've set up a simple (hacked up) Cython wrapper around the engine. The original Cython source can be found in src/python. I did, however, comment two lines of code from the originally generated code so that the classes Engine and Options are not exposed to the calling code for construction. When I have more time, I'll put together a proper C wrapper, but for now, this should do.
+Python C-extension wrapping the internals of [OptiPng](http://optipng.sourceforge.net/) to allow optimizing the size of image files from Python. Currently, I've set up a simple (hacked up) Cython wrapper around the engine. The original Cython source can be found in src/python. ~~I did, however, comment two lines of code from the originally generated code so that the classes Engine and Options are not exposed to the calling code for construction.~~ Since the module stores a reference to the real engine internals at the C-side and at module level, this shouldn't be an issue. When I have more time, I'll put together a proper C wrapper, but for now, this should do.
 
 I also need to put together a setup script. I don't current have access to a Linux machine, and I'd really rather not create a new virtual machine, so if someone could attempt to build the module on Linux/Mac OSX, I'd appreciate it.
 
