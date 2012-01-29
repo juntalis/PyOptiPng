@@ -1,0 +1,94 @@
+﻿LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+pyutil.obj : error LNK2019: unresolved external symbol __imp___log_handlers referenced in function _wrapped_ctrl_fn
+pyutil.obj : error LNK2019: unresolved external symbol __imp___fatal_handlers referenced in function _wrapped_err_fn
+pyutil.obj : error LNK2019: unresolved external symbol __imp___progress_handlers referenced in function _wrapped_progress_fn
+G:\cpp.workspace\sandbox\liboptipng\optipng-0.6.5\prj\visualc10\..\..\bin\Debug\optipng.pyd : fatal error LNK1120: 3 unresolved externals
+
+Project Performance Summary:
+     3415 ms  G:\cpp.workspace\sandbox\liboptipng\optipng-0.6.5\prj\visualc10\pyoptipng.vcxproj   1 calls
+               3415 ms  Build                                      1 calls
+
+Target Performance Summary:
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  MakeDirsForLink                            1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  _GenerateXMLData                           1 calls
+        0 ms  MakeDirsForCl                              1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  _DetermineManagedStateFromCL               1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  GetInstalledSDKLocations                   1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  _GenerateWebServiceProxy                   1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        1 ms  AssignTargetPaths                          1 calls
+        1 ms  _PrepareForBuild                           1 calls
+        1 ms  ComputeCLOutputs                           1 calls
+        1 ms  GetFrameworkPaths                          1 calls
+        1 ms  DoLinkOutputFilesMatch                     1 calls
+        1 ms  SplitResourcesByCulture                    1 calls
+        1 ms  MakeDirsForMidl                            1 calls
+        1 ms  PrepareForBuild                            1 calls
+        2 ms  ResolveAssemblyReferences                  1 calls
+        3 ms  ComputeReferenceCLInput                    1 calls
+        3 ms  SetBuildDefaultEnvironmentVariables        1 calls
+       13 ms  InitializeBuildStatus                      1 calls
+      134 ms  ManifestResourceCompile                    1 calls
+      625 ms  PreBuildEvent                              1 calls
+      866 ms  Link                                       1 calls
+     1759 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  Message                                    3 calls
+        1 ms  AssignTargetPath                           4 calls
+        1 ms  Delete                                     1 calls
+        1 ms  AssignCulture                              1 calls
+        1 ms  ReadLinesFromFile                          1 calls
+        2 ms  ResolveAssemblyReference                   1 calls
+        2 ms  MakeDir                                    7 calls
+        3 ms  SetEnv                                     4 calls
+        5 ms  Touch                                      1 calls
+       13 ms  WriteLinesToFile                           4 calls
+      128 ms  RC                                         1 calls
+      623 ms  Exec                                       1 calls
+      865 ms  Link                                       1 calls
+     1756 ms  CL                                         2 calls

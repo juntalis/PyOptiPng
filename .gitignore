@@ -1,0 +1,7 @@
+.idea
+bin/*
+python/data
+python/examples
+python/Include
+python/Lib
+python/Scripts

@@ -1,0 +1,79 @@
+﻿LINK : fatal error LNK1181: cannot open input file 'G:\cpp.workspace\sandbox\liboptipng\optipng-0.6.5\prj\visualc10\obj\zlib\Debug\\.obj'
+
+Project Performance Summary:
+     3644 ms  G:\cpp.workspace\sandbox\liboptipng\optipng-0.6.5\prj\visualc10\zlib.vcxproj   1 calls
+               3644 ms  Build                                      1 calls
+
+Target Performance Summary:
+        0 ms  SelectClCompile                            1 calls
+        0 ms  ComputeRCGeneratedLibInputs                1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  ComputeLibInputsFromProject                1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  DoLibOutputFilesMatch                      1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  BeforeLib                                  1 calls
+        0 ms  MakeDirsForLib                             1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  _GenerateWebServiceProxy                   1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  ComputeLibAdditionalOptions                1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  _DetermineManagedStateFromCL               1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  _GenerateXMLData                           1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        1 ms  GetInstalledSDKLocations                   1 calls
+        1 ms  ComputeCLInputPDBName                      1 calls
+        1 ms  PrepareForBuild                            1 calls
+        1 ms  ComputeCLGeneratedLibInputs                1 calls
+        1 ms  GetFrameworkPaths                          1 calls
+        1 ms  ComputeCustomBuildOutput                   1 calls
+        3 ms  ComputeReferenceCLInput                    1 calls
+        9 ms  MakeDirsForCl                              1 calls
+       17 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+       22 ms  ComputeCLOutputs                           1 calls
+       67 ms  ResolveAssemblyReferences                  1 calls
+       88 ms  SetBuildDefaultEnvironmentVariables        1 calls
+       90 ms  InitializeBuildStatus                      1 calls
+      158 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+      177 ms  Lib                                        1 calls
+      808 ms  CustomBuild                                1 calls
+     2186 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  Delete                                     1 calls
+        2 ms  Message                                    2 calls
+        7 ms  SetEnv                                     4 calls
+        8 ms  MakeDir                                    7 calls
+       12 ms  ReadLinesFromFile                          1 calls
+       22 ms  Touch                                      1 calls
+       58 ms  WriteLinesToFile                           2 calls
+       67 ms  ResolveAssemblyReference                   1 calls
+      177 ms  LIB                                        1 calls
+      706 ms  CustomBuild                                1 calls
+     2178 ms  CL                                         1 calls

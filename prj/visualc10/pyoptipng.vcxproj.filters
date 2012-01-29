@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\cbitset.c" />
+    <ClCompile Include="..\..\src\xtra\memleaks.cpp" />
+    <ClCompile Include="..\..\src\opngoptim.c" />
+    <ClCompile Include="..\..\src\opngreduc.c" />
+    <ClCompile Include="..\..\src\osys.c" />
+    <ClCompile Include="..\..\src\xtra\wildargs.c" />
+    <ClCompile Include="..\..\src\python\pyutil.c">
+      <Filter>python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\python\optipngmodule.c">
+      <Filter>python</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\cbitset.h" />
+    <ClInclude Include="..\..\src\cexcept.h" />
+    <ClInclude Include="..\..\src\opngreduc.h" />
+    <ClInclude Include="..\..\src\optipng.h" />
+    <ClInclude Include="..\..\src\osys.h" />
+    <ClInclude Include="..\..\src\proginfo.h" />
+    <ClInclude Include="..\..\src\python\pyutil.h">
+      <Filter>python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\python\optipngmodule.h">
+      <Filter>python</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="python">
+      <UniqueIdentifier>{c7fa0e16-656b-46eb-be77-e3deb9563e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{1e33cfe0-2873-43a0-a27f-4e82bc09f7da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\tests\test.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="..\..\src\python\optipng.pyx">
+      <Filter>python</Filter>
+    </None>
+  </ItemGroup>
+</Project>
